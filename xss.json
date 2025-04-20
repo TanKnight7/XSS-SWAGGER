@@ -1,8 +1,8 @@
 {
-  "url": "https://raw.githubusercontent.com/tanknight7/XSS-SWAGGER/main/xss.yaml",
+  "url": "https://raw.githubusercontent.com/TanKnight7/XSS-SWAGGER/refs/heads/main/xss.yaml",
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/tanknight7/XSS-SWAGGER/main/xss.yaml",
+      "url": "https://raw.githubusercontent.com/TanKnight7/XSS-SWAGGER/refs/heads/main/xss.yaml",
       "name": "Foo"
     }
   ]
