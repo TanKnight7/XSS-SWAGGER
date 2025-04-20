@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  title: XSS Attack tan
+  title: XSS Attack tanhello<style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
   description: |
     hello<style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
 
